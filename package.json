@@ -15,11 +15,7 @@
     "vite-plugin-wasm": "^3.3.0"
   },
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "viteme": "vite build && vite preview",
-    "serve": "vite preview"
+    "vitestart": "vite build && vite preview"
 
   },
   "eslintConfig": {

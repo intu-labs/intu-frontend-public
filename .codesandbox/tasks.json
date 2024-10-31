@@ -1,0 +1,38 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "npm run vitestart",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "yarn preview",
+      "runAtStart": false
+    },
+    "viteme": {
+      "name": "viteme",
+      "command": "yarn viteme",
+      "runAtStart": false
+    },
+    "serve": {
+      "name": "serve",
+      "command": "yarn serve",
+      "runAtStart": false
+    }
+  }
+}

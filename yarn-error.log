@@ -1,0 +1,81 @@
+Arguments: 
+  /usr/local/share/nvm/versions/node/v20.12.1/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /opt/git/bin:/opt/conda/condabin:/home/codespace/.dotnet:/home/codespace/nvm/current/bin:/home/codespace/.php/current/bin:/home/codespace/.python/current/bin:/home/codespace/java/current/bin:/home/codespace/.ruby/current/bin:/home/codespace/.local/bin:/usr/local/python/current/bin:/usr/local/py-utils/bin:/usr/local/oryx:/usr/local/go/bin:/go/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/local/rvm/gems/default/bin:/usr/local/rvm/gems/default@global/bin:/usr/local/rvm/rubies/default/bin:/usr/local/share/rbenv/bin:/usr/local/php/current/bin:/opt/conda/bin:/usr/local/nvs:/usr/local/share/nvm/current/bin:/usr/local/hugo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/share/dotnet:/root/.dotnet/tools:/usr/local/rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@intuweb3%2fsteven-web-kit: Not found
+      at params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66145:18)
+      at self.callback (/usr/share/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:518:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:518:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:632:28)
+      at IncomingMessage.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "v2-demo",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+      "@chakra-ui/react": "^2.8.2",
+      "@intuweb3/steven-web-kit": "^0.1.11",
+      "@vitejs/plugin-react": "^4.3.1",
+      "eslint-config-react-app": "^7.0.1",
+      "ethers": "5.7.2",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "vite": "^5.4.10",
+      "vite-plugin-wasm": "^3.3.0"
+    },
+    "scripts": {
+      "start": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "viteme": "vite build && vite preview",
+      "serve": "vite preview"
+  
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "browser": {
+      "crypto": false
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
